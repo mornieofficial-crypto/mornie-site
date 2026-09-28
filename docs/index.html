@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>mornie! サポート</title>
+  <meta name="description" content="mornie! のアプリに関するサポート情報、プライバシーポリシー、お問い合わせ先をご案内しています。">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">本文へスキップ</a>
+
+  <!-- ▼ [COMMON] 共通ヘッダー：全ページ同じ内容（変更時は全ページを修正）
+       ※ トップページだけリンク先が「#apps」のようにページ内になります -->
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="logo" href="./">mornie<span>!</span></a>
+      <nav class="global-nav" aria-label="メインメニュー">
+        <ul>
+          <li><a href="#apps">Apps</a></li>
+          <li><a href="#support">Support</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- ▲ [COMMON] 共通ヘッダー -->
+
+  <main id="main">
+    <!-- ▼ [TOP] サイト説明 -->
+    <section class="hero">
+      <div class="container">
+        <h1>mornie! サポート</h1>
+        <p>mornie! のアプリに関するサポート情報、プライバシーポリシー、お問い合わせ先をご案内しています。</p>
+        <div class="btn-row">
+          <a class="btn" href="#apps">アプリから探す</a>
+          <a class="btn btn--ghost" href="#contact">お問い合わせ</a>
+        </div>
+      </div>
+    </section>
+    <!-- ▲ [TOP] サイト説明 -->
+
+    <!-- ▼ [APP-LIST] アプリ一覧
+         アプリを追加・公開するときはここを編集します（手順は README.md 参照）
+         - 公開中：app-card に badge--live とボタンを付ける
+         - 準備中：app-card--soon と badge--soon を付け、ボタンは付けない -->
+    <section class="page-section" id="apps">
+      <div class="container">
+        <h2 class="section-title">公開中のアプリ</h2>
+        <ul class="app-list">
+          <!-- ▽ アプリ：mornie -->
+          <li>
+            <article class="app-card">
+              <div class="app-card__head">
+                <span class="app-card__icon" aria-hidden="true">m</span>
+                <div>
+                  <h3 class="app-card__name">mornie</h3>
+                  <span class="badge badge--live">公開中</span>
+                </div>
+              </div>
+              <p class="app-card__desc">日々の気持ちやできごとを、自分のペースで記録できるアプリです。</p>
+              <div class="btn-row">
+                <a class="btn" href="apps/mornie/">サポートを見る</a>
+                <a class="btn btn--ghost" href="apps/mornie/privacy/">プライバシーポリシー</a>
+              </div>
+            </article>
+          </li>
+          <!-- △ アプリ：mornie -->
+        </ul>
+      </div>
+    </section>
+
+    <section class="page-section">
+      <div class="container">
+        <h2 class="section-title">準備中のアプリ</h2>
+        <ul class="app-list">
+          <!-- ▽ アプリ：かいてつくる！いきもののすみか -->
+          <li>
+            <article class="app-card app-card--soon">
+              <div class="app-card__head">
+                <span class="app-card__icon app-card__icon--peach" aria-hidden="true">い</span>
+                <div>
+                  <h3 class="app-card__name">かいてつくる！いきもののすみか</h3>
+                  <span class="badge badge--soon">準備中</span>
+                </div>
+              </div>
+              <p class="app-card__desc">サポートページを準備中です。</p>
+            </article>
+          </li>
+          <!-- △ アプリ：かいてつくる！いきもののすみか -->
+          <!-- ▽ アプリ：お買い物メモ -->
+          <li>
+            <article class="app-card app-card--soon">
+              <div class="app-card__head">
+                <span class="app-card__icon app-card__icon--sage" aria-hidden="true">お</span>
+                <div>
+                  <h3 class="app-card__name">お買い物メモ</h3>
+                  <span class="badge badge--soon">準備中</span>
+                </div>
+              </div>
+              <p class="app-card__desc">サポートページを準備中です。</p>
+            </article>
+          </li>
+          <!-- △ アプリ：お買い物メモ -->
+        </ul>
+      </div>
+    </section>
+    <!-- ▲ [APP-LIST] アプリ一覧 -->
+
+    <!-- ▼ [SUPPORT-TABLE] サポート・プライバシーポリシー一覧
+         アプリ1つにつき <tr> 1行。準備中のアプリは「（準備中）」を付けます -->
+    <section class="page-section" id="support">
+      <div class="container">
+        <h2 class="section-title">サポート・プライバシーポリシー</h2>
+        <table class="link-table">
+          <thead>
+            <tr>
+              <th scope="col">アプリ</th>
+              <th scope="col">サポート</th>
+              <th scope="col">プライバシーポリシー</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">mornie</th>
+              <td><a href="apps/mornie/">サポート</a></td>
+              <td><a href="apps/mornie/privacy/">プライバシーポリシー</a></td>
+            </tr>
+            <tr>
+              <th scope="row">かいてつくる！いきもののすみか</th>
+              <td><a href="apps/ikimono-no-sumika/">サポート</a> <span class="muted">（準備中）</span></td>
+              <td><a href="apps/ikimono-no-sumika/privacy/">プライバシーポリシー</a> <span class="muted">（準備中）</span></td>
+            </tr>
+            <tr>
+              <th scope="row">お買い物メモ</th>
+              <td><a href="apps/okaimono-memo/">サポート</a> <span class="muted">（準備中）</span></td>
+              <td><a href="apps/okaimono-memo/privacy/">プライバシーポリシー</a> <span class="muted">（準備中）</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <!-- ▲ [SUPPORT-TABLE] -->
+
+    <!-- ▼ [CONTACT] 共通問い合わせ先
+         メールアドレスを変更する場合は、全ページの mornie.official@gmail.com を一括置換してください -->
+    <section class="page-section" id="contact">
+      <div class="container">
+        <h2 class="section-title">お問い合わせ</h2>
+        <div class="panel panel--soft">
+          <p>各アプリに関するご質問・不具合のご報告などは、以下のメールアドレスまでご連絡ください。</p>
+          <p><a class="mail" href="mailto:mornie.official@gmail.com">mornie.official@gmail.com</a></p>
+          <p class="note">お問い合わせの際は、対象のアプリ名をあわせてお知らせください。</p>
+        </div>
+      </div>
+    </section>
+    <!-- ▲ [CONTACT] -->
+  </main>
+
+  <!-- ▼ [COMMON] 共通フッター：全ページ同じ内容（変更時は全ページを修正） -->
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <a class="logo" href="./">mornie<span>!</span></a>
+      <ul class="footer-nav">
+        <li><a href="./">トップ</a></li>
+        <li><a href="#contact">お問い合わせ</a></li>
+      </ul>
+      <p class="copyright">&copy; mornie!</p>
+    </div>
+  </footer>
+  <!-- ▲ [COMMON] 共通フッター -->
+</body>
+</html>
