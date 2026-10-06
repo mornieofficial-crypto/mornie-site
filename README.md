@@ -158,6 +158,9 @@ URL は `docs/` を基準に次の形になります。
    - `[APP-LIST]` の該当カードを「準備中のアプリ」から「公開中のアプリ」へ移動
    - `app-card--soon` を外し、`badge--soon` → `badge--live`、「準備中」→「公開中」
    - 説明文を書き換え、mornie のカードと同じようにボタン2つを追加
+   - アイコン画像があれば `docs/assets/img/apps/<スラッグ>.webp`（192px 正方形）に置き、
+     カードの文字アイコン `<span class="app-card__icon …">` を
+     `<img class="app-card__icon" src="assets/img/apps/<スラッグ>.webp" alt="" width="48" height="48">` に差し替える
    - `[SUPPORT-TABLE]` の該当行から「（準備中）」を削除
 
 ## 確認チェックリスト

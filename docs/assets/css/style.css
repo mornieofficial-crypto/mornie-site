@@ -373,6 +373,13 @@ main { display: block; }
   color: var(--c-navy);
   background: var(--c-sky);
 }
+/* アプリアイコン画像（docs/assets/img/apps/<スラッグ>.webp、192px 正方形） */
+img.app-card__icon {
+  display: block;
+  object-fit: cover;
+  background: none;
+  box-shadow: 0 0 0 1px var(--border);
+}
 .app-card__icon--peach { background: var(--c-peach); }
 .app-card__icon--sage  { background: var(--c-sage); }
 
